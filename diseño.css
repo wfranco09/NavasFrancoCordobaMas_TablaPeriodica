@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #062683;
+    margin-bottom: 25px;
+}
+
+footer {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+/* Grid de los elementos (columnas) */
+
+.tabla-grid {
+    display: grid;
+    grid-template-columns: repeat(18, 70px);
+    grid-auto-rows: 70px;
+    gap: 6px;
+    margin-left: 55px;
+}
+
+
+/* celdas de los elementos */
+
+.celda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Efecto hover cuando se pase el cursor */
+
+.celda:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* secciones con los colores solicitados */
+
+.seccion1 {
+    background: #fcb07d;
+}
+
+.seccion2 {
+    background: #FFE599;
+}
+
+.seccion3 {
+    background: #FFFF00;
+}
+
+.seccion4 {
+    background: #8EAADB;
+}
+
+.seccion5 {
+    background: #68FB61;
+}
+
+.seccion6 {
+    background: #DDABFF;
+}
+
+.seccion7 {
+    background: #FF66FF;
+}
+
+.seccion8 {
+    background: #00CCFF;
+}
