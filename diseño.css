@@ -15,9 +15,7 @@ footer {
     font-weight: bold;
 }
 
-
-/* Grid de los elementos (columnas) */
-
+/* ===== ESCRITORIO (default) ===== */
 .tabla-grid {
     display: grid;
     grid-template-columns: repeat(18, 70px);
@@ -26,9 +24,12 @@ footer {
     margin-left: 55px;
 }
 
+/* Ocultar secciones agrupadas en desktop */
+.seccion-grupo {
+    display: none;
+}
 
-/* celdas de los elementos */
-
+/* Mostrar celdas individuales en desktop */
 .celda {
     display: flex;
     align-items: center;
@@ -37,48 +38,105 @@ footer {
     font-weight: bold;
     text-decoration: none;
     color: #000;
+    transition: all 0.3s ease;
 }
 
+/* Colores por sección */
+.seccion1 { background: #fcb07d; }
+.seccion2 { background: #FFE599; }
+.seccion3 { background: #FFFF00; }
+.seccion4 { background: #8EAADB; }
+.seccion5 { background: #68FB61; }
+.seccion6 { background: #DDABFF; }
+.seccion7 { background: #FF66FF; }
+.seccion8 { background: #00CCFF; }
 
-/* Efecto hover cuando se pase el cursor */
-
-.celda:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1.1);
-    cursor: pointer;
+/* ===== RESPONSIVE 601px - 800px ===== */
+@media (min-width: 601px) and (max-width: 800px) {
+    .tabla-grid {
+        display: block;
+        margin-left: 0;
+        padding: 20px;
+    }
+    
+    /* Ocultar celdas sueltas */
+    .celda {
+        display: none;
+    }
+    
+    /* Mostrar secciones agrupadas */
+    .seccion-grupo {
+        display: block;
+        margin-bottom: 30px;
+        padding: 20px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .seccion-header {
+        color: #062683;
+        margin: 0 0 20px 0;
+        font-size: 1.3em;
+        border-bottom: 3px solid #062683;
+        padding-bottom: 10px;
+    }
+    
+    .elementos-grid {
+        display: grid;
+        gap: 8px;
+        justify-content: center;
+    }
+    
+    /* Grid automático para la mayoría de secciones */
+    .grupo1-2 .elementos-grid,
+    .grupo4 .elementos-grid,
+    .grupo5 .elementos-grid,
+    .grupo6 .elementos-grid,
+    .grupo7-8 .elementos-grid {
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    }
+    
+    /* Sección 3 con máximo 5 columnas fijas */
+    .grupo3 .elementos-grid {
+        grid-template-columns: repeat(5, 70px);
+    }
+    
+    /* Estilos de celdas en modo responsive */
+    .seccion-grupo .celda {
+        display: flex !important;
+        height: 70px;
+        border-radius: 8px;
+        font-size: 1em;
+    }
+    
+    /* Efecto hover */
+    .celda:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+        cursor: pointer;
+        background-color: #C11905 !important;
+        color: white !important;
+    }
 }
 
-
-/* secciones con los colores solicitados */
-
-.seccion1 {
-    background: #fcb07d;
-}
-
-.seccion2 {
-    background: #FFE599;
-}
-
-.seccion3 {
-    background: #FFFF00;
-}
-
-.seccion4 {
-    background: #8EAADB;
-}
-
-.seccion5 {
-    background: #68FB61;
-}
-
-.seccion6 {
-    background: #DDABFF;
-}
-
-.seccion7 {
-    background: #FF66FF;
-}
-
-.seccion8 {
-    background: #00CCFF;
+/* ===== MÓVIL (hasta 600px) ===== */
+@media (max-width: 600px) {
+    .tabla-grid {
+        grid-template-columns: repeat(9, 1fr);
+        grid-auto-rows: 50px;
+        gap: 3px;
+        margin-left: 0;
+        padding: 5px;
+    }
+    
+    .celda {
+        font-size: 0.8em;
+        border-radius: 4px;
+    }
+    
+    /* Ocultar secciones agrupadas en móvil */
+    .seccion-grupo {
+        display: none;
+    }
 }
