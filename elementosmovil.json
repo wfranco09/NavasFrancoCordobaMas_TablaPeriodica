@@ -1,0 +1,502 @@
+{
+    "secciones": [
+        {
+            "id": "grupo1",
+            "titulo": "Metales Alcalinos",
+            "elementos": [
+                {
+                    "simbolo": "H",
+                    "nombre": "Hidrógeno",
+                    "seccion": 1
+                },
+                {
+                    "simbolo": "Li",
+                    "nombre": "Litio",
+                    "seccion": 1
+                },
+                {
+                    "simbolo": "Na",
+                    "nombre": "Sodio",
+                    "seccion": 1
+                },
+                {
+                    "simbolo": "K",
+                    "nombre": "Potasio",
+                    "seccion": 1
+                },
+                {
+                    "simbolo": "Rb",
+                    "nombre": "Rubidio",
+                    "seccion": 1
+                },
+                {
+                    "simbolo": "Cs",
+                    "nombre": "Cesio",
+                    "seccion": 1
+                },
+                {
+                    "simbolo": "Fr",
+                    "nombre": "Francio",
+                    "seccion": 1
+                }
+            ]
+        },
+        {
+            "id": "grupo2",
+            "titulo": "Metales Alcalinotérreos",
+            "elementos": [
+                {
+                    "simbolo": "Be",
+                    "nombre": "Berilio",
+                    "seccion": 2
+                },
+                {
+                    "simbolo": "Mg",
+                    "nombre": "Magnesio",
+                    "seccion": 2
+                },
+                {
+                    "simbolo": "Ca",
+                    "nombre": "Calcio",
+                    "seccion": 2
+                },
+                {
+                    "simbolo": "Sr",
+                    "nombre": "Estroncio",
+                    "seccion": 2
+                },
+                {
+                    "simbolo": "Ba",
+                    "nombre": "Bario",
+                    "seccion": 2
+                },
+                {
+                    "simbolo": "Ra",
+                    "nombre": "Radio",
+                    "seccion": 2
+                }
+            ]
+        },
+        {
+            "id": "grupo3",
+            "titulo": "Metales de Transición",
+            "elementos": [
+                {
+                    "simbolo": "Sc",
+                    "nombre": "Escandio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Ti",
+                    "nombre": "Titanio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "V",
+                    "nombre": "Vanadio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Cr",
+                    "nombre": "Cromo",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Mn",
+                    "nombre": "Manganeso",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Fe",
+                    "nombre": "Hierro",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Co",
+                    "nombre": "Cobalto",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Ni",
+                    "nombre": "Níquel",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Cu",
+                    "nombre": "Cobre",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Zn",
+                    "nombre": "Zinc",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Y",
+                    "nombre": "Itrio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Zr",
+                    "nombre": "Zirconio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Nb",
+                    "nombre": "Niobio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Mo",
+                    "nombre": "Molibdeno",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Tc",
+                    "nombre": "Tecnecio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Ru",
+                    "nombre": "Rutenio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Rh",
+                    "nombre": "Rodio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Pd",
+                    "nombre": "Paladio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Ag",
+                    "nombre": "Plata",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Cd",
+                    "nombre": "Cadmio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "La",
+                    "nombre": "Lantano",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Hf",
+                    "nombre": "Hafnio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Ta",
+                    "nombre": "Tantalio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "W",
+                    "nombre": "Wolframio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Re",
+                    "nombre": "Renio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Os",
+                    "nombre": "Osmio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Ir",
+                    "nombre": "Iridio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Pt",
+                    "nombre": "Platino",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Au",
+                    "nombre": "Oro",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Hg",
+                    "nombre": "Mercurio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Ac",
+                    "nombre": "Actinio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Rf",
+                    "nombre": "Rutherfordio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Db",
+                    "nombre": "Dubnio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Sg",
+                    "nombre": "Seaborgio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Bh",
+                    "nombre": "Bohrio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Hs",
+                    "nombre": "Hassio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Mt",
+                    "nombre": "Meitnerio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Ds",
+                    "nombre": "Darmstadtio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Rg",
+                    "nombre": "Roentgenio",
+                    "seccion": 3
+                },
+                {
+                    "simbolo": "Cn",
+                    "nombre": "Copernicio",
+                    "seccion": 3
+                }
+            ]
+        },
+        {
+            "id": "grupo4",
+            "titulo": "Metales del Bloque P",
+            "elementos": [
+                {
+                    "simbolo": "Al",
+                    "nombre": "Aluminio",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "Ga",
+                    "nombre": "Galio",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "In",
+                    "nombre": "Indio",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "Sn",
+                    "nombre": "Estaño",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "Tl",
+                    "nombre": "Talio",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "Pb",
+                    "nombre": "Plomo",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "Bi",
+                    "nombre": "Bismuto",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "Nh",
+                    "nombre": "Nihonio",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "Fl",
+                    "nombre": "Flerovio",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "Mc",
+                    "nombre": "Moscovio",
+                    "seccion": 4
+                },
+                {
+                    "simbolo": "Lv",
+                    "nombre": "Livermorio",
+                    "seccion": 4
+                }
+            ]
+        },
+        {
+            "id": "grupo5",
+            "titulo": "Metaloides",
+            "elementos": [
+                {
+                    "simbolo": "B",
+                    "nombre": "Boro",
+                    "seccion": 5
+                },
+                {
+                    "simbolo": "Si",
+                    "nombre": "Silicio",
+                    "seccion": 5
+                },
+                {
+                    "simbolo": "Ge",
+                    "nombre": "Germanio",
+                    "seccion": 5
+                },
+                {
+                    "simbolo": "As",
+                    "nombre": "Arsénico",
+                    "seccion": 5
+                },
+                {
+                    "simbolo": "Sb",
+                    "nombre": "Antimonio",
+                    "seccion": 5
+                },
+                {
+                    "simbolo": "Te",
+                    "nombre": "Telurio",
+                    "seccion": 5
+                },
+                {
+                    "simbolo": "Po",
+                    "nombre": "Polonio",
+                    "seccion": 5
+                }
+            ]
+        },
+        {
+            "id": "grupo6",
+            "titulo": "No Metales",
+            "elementos": [
+                {
+                    "simbolo": "C",
+                    "nombre": "Carbono",
+                    "seccion": 6
+                },
+                {
+                    "simbolo": "N",
+                    "nombre": "Nitrógeno",
+                    "seccion": 6
+                },
+                {
+                    "simbolo": "O",
+                    "nombre": "Oxígeno",
+                    "seccion": 6
+                },
+                {
+                    "simbolo": "P",
+                    "nombre": "Fósforo",
+                    "seccion": 6
+                },
+                {
+                    "simbolo": "S",
+                    "nombre": "Azufre",
+                    "seccion": 6
+                },
+                {
+                    "simbolo": "Se",
+                    "nombre": "Selenio",
+                    "seccion": 6
+                }
+            ]
+        },
+        {
+            "id": "grupo7",
+            "titulo": "Halógenos",
+            "elementos": [
+                {
+                    "simbolo": "F",
+                    "nombre": "Flúor",
+                    "seccion": 7
+                },
+                {
+                    "simbolo": "Cl",
+                    "nombre": "Cloro",
+                    "seccion": 7
+                },
+                {
+                    "simbolo": "Br",
+                    "nombre": "Bromo",
+                    "seccion": 7
+                },
+                {
+                    "simbolo": "I",
+                    "nombre": "Yodo",
+                    "seccion": 7
+                },
+                {
+                    "simbolo": "At",
+                    "nombre": "Ástato",
+                    "seccion": 7
+                },
+                {
+                    "simbolo": "Ts",
+                    "nombre": "Tenesino",
+                    "seccion": 7
+                }
+            ]
+        },
+        {
+            "id": "grupo8",
+            "titulo": "Gases Nobles",
+            "elementos": [
+                {
+                    "simbolo": "He",
+                    "nombre": "Helio",
+                    "seccion": 8
+                },
+                {
+                    "simbolo": "Ne",
+                    "nombre": "Neón",
+                    "seccion": 8
+                },
+                {
+                    "simbolo": "Ar",
+                    "nombre": "Argón",
+                    "seccion": 8
+                },
+                {
+                    "simbolo": "Kr",
+                    "nombre": "Kriptón",
+                    "seccion": 8
+                },
+                {
+                    "simbolo": "Xe",
+                    "nombre": "Xenón",
+                    "seccion": 8
+                },
+                {
+                    "simbolo": "Rn",
+                    "nombre": "Radón",
+                    "seccion": 8
+                },
+                {
+                    "simbolo": "Og",
+                    "nombre": "Oganesón",
+                    "seccion": 8
+                }
+            ]
+        }
+    ]
+}
